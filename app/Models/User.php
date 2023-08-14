@@ -49,7 +49,7 @@ class User extends Authenticatable
         return $this->hasOne(Client::class);
     }
 
-    public function user(): HasOne
+    public function seller(): HasOne
     {
         return $this->hasOne(Seller::class);
     }
