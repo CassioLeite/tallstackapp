@@ -20,7 +20,7 @@ class Sale extends Model
     ];
 
     protected $casts = [
-        'status' => status::class
+        'status' => Status::class
     ];
 
     public function client(): BelongsTo
